@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextViewCopyandHighlited"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Al Mamun - asifulmamun"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textIsSelectable="true"
+        android:textColorHighlight="@android:color/holo_blue_dark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="www.asifulmamun.info"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_green_dark"
+        android:textAlignment="center"/>
+
+</LinearLayout>
